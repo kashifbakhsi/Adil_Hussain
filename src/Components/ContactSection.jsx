@@ -335,17 +335,32 @@ export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMsg, setSuccessMsg] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
 
-    setIsSubmitting(true);
-    setSuccessMsg("");
+//     setIsSubmitting(true);
+//     setSuccessMsg("");
 
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSuccessMsg("Your enquiry has been sent successfully! ✅");
-    }, 1500);
-  };
+//     setTimeout(() => {
+//       setIsSubmitting(false);
+//       setSuccessMsg("Your enquiry has been sent successfully! ✅");
+//     }, 1500);
+//   };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const name = e.target[0].value;
+  const email = e.target[1].value;
+  const message = e.target[2].value;
+
+  const phoneNumber = "918981282173"; // your WhatsApp number (no +)
+
+  const text = `Hello, I'm ${name}%0AEmail: ${email}%0AProject Details: ${message}`;
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${text}`;
+
+  window.open(whatsappURL, "_blank");
+};
 
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">

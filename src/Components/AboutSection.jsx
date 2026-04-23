@@ -18,7 +18,7 @@
 //             <p className="text-muted-foreground">
 //               With over 5 years of experience in civil engineering and modular
 //               kitchen design, I specialize in creating durable, efficient, and
-//               aesthetically pleasing spaces tailored to modern living. 
+//               aesthetically pleasing spaces tailored to modern living.
 //             </p>
 
 //             <p className="text-muted-foreground">
@@ -33,7 +33,6 @@
 //                 Get In Touch
 //               </a>
 
-              
 //             </div>
 //           </div>
 
@@ -94,11 +93,10 @@ export const AboutSection = () => {
     <section id="about" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary">Me</span>
+          About <span className="text-primary">Us</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          
           {/* LEFT CONTENT */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
@@ -106,16 +104,16 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in civil engineering and modular
-              kitchen design, I specialize in creating durable, efficient, and
-              aesthetically refined spaces tailored to modern living.
+              With extensive experience in civil engineering and modular kitchen
+              design, we craft spaces that are structurally sound, visually
+              elegant, and functionally efficient.
             </p>
 
             <p className="text-muted-foreground">
-              I am passionate about transforming ideas into practical solutions,
-              combining engineering precision with innovative design. I
-              continuously explore new trends and construction techniques to
-              deliver high-quality results that exceed client expectations.
+              At Modu<span className="text-primary">space</span>, we blend technical expertise with creative
+              innovation to transform concepts into reality—delivering high-end
+              solutions that reflect quality, precision, and modern design
+              standards.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -127,7 +125,6 @@ export const AboutSection = () => {
 
           {/* RIGHT CARDS */}
           <div className="grid grid-cols-1 gap-6">
-
             {/* Civil Engineering */}
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
@@ -135,9 +132,7 @@ export const AboutSection = () => {
                   <HardHat className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Civil Engineering
-                  </h4>
+                  <h4 className="font-semibold text-lg">Civil Engineering</h4>
                   <p className="text-muted-foreground">
                     Designing and constructing strong, safe, and durable
                     structures with a focus on quality and precision.
@@ -171,9 +166,7 @@ export const AboutSection = () => {
                   <ClipboardList className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Project Management
-                  </h4>
+                  <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
                     Managing projects from planning to execution, ensuring
                     timely delivery, cost efficiency, and high standards.
@@ -181,7 +174,6 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

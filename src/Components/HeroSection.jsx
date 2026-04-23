@@ -9,26 +9,29 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
+            <span className="opacity-0 animate-fade-in">
+              {" "}
+              Hi, we are 
+            </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Adil
+              Modu
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Hussain
+              space
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Transforming ideas into well-crafted spaces. With expertise in civil
-            engineering and modular kitchen design, I create smart, elegant, and
-            efficient environments that blend style with functionality.
+            We transform ideas into thoughtfully crafted spaces. With expertise
+            in civil engineering and modular kitchen design, we create smart,
+            elegant, and efficient environments that seamlessly blend
+            functionality with modern aesthetics.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
-              View My Work
+              View Our Work
             </a>
           </div>
         </div>
