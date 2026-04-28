@@ -331,27 +331,3 @@
 .delay-300 {
   animation-delay: 0.3s;
 }
-@layer base {
-  html {
-    font-weight: 500; /* makes all text slightly bolder globally */
-  }
-
-  body {
-    @apply text-foreground font-medium;
-    font-weight: 500;
-    letter-spacing: 0.2px;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 800; /* stronger headings everywhere */
-    letter-spacing: -0.3px;
-  }
-
-  p, span, li {
-    font-weight: 500; /* slightly bold body text */
-  }
-
-  strong, b {
-    font-weight: 900; /* make bold text really bold */
-  }
-}
