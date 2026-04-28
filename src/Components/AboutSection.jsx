@@ -100,20 +100,15 @@ export const AboutSection = () => {
           {/* LEFT CONTENT */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Civil Engineer & Modular Kitchen Design Specialist
+              Kitchen, Wardrobe & Modular Furniture Specialist
             </h3>
 
             <p className="text-muted-foreground">
-              With extensive experience in civil engineering and modular kitchen
-              design, we craft spaces that are structurally sound, visually
-              elegant, and functionally efficient.
+              With extensive experience in designing modular kitchens, wardrobes, and custom furniture, we create spaces that are elegant, highly functional, and thoughtfully optimized for modern living.
             </p>
 
             <p className="text-muted-foreground">
-              At Modu<span className="text-primary">space</span>, we blend technical expertise with creative
-              innovation to transform concepts into reality—delivering high-end
-              solutions that reflect quality, precision, and modern design
-              standards.
+              At Modu<span className="text-primary">space</span>, , we combine design expertise with creative innovation to transform ideas into reality—delivering refined interior solutions that reflect quality, precision, and contemporary aesthetics.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -132,10 +127,9 @@ export const AboutSection = () => {
                   <HardHat className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Civil Engineering</h4>
+                  <h4 className="font-semibold text-lg">Modular Kitchens, Wardrobes & Custom Furniture Design</h4>
                   <p className="text-muted-foreground">
-                    Designing and constructing strong, safe, and durable
-                    structures with a focus on quality and precision.
+                    Designing modern, space-efficient kitchens, wardrobes, and modular furniture that blend style, functionality, and smart storage solutions.
                   </p>
                 </div>
               </div>
@@ -149,11 +143,10 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">
-                    Modular Kitchen Design
+                    Interior Design & Space Planning
                   </h4>
                   <p className="text-muted-foreground">
-                    Creating modern, space-efficient kitchen layouts that
-                    combine style, functionality, and smart storage solutions.
+                    Creating thoughtfully planned interiors that balance aesthetics and usability, ensuring elegant and efficient living spaces.
                   </p>
                 </div>
               </div>

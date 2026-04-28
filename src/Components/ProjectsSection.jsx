@@ -209,15 +209,45 @@ export const ProjectsSection = () => {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
-            href="#contact"
-          >
-            View More Projects <ArrowRight size={16} />
-          </a>
-        </div>
+  <a
+    className="cosmic-button w-fit flex items-center mx-auto gap-2"
+    href="https://www.instagram.com/moduspace_kitchen_wardrobe?igsh=eWUzejluaWpzaGJr&utm_source=qr"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Projects on Instagram <ArrowRight size={16} />
+  </a>
+</div>
+<section id="founder" className="py-24 px-4 relative bg-secondary/30">
+  <div className="container mx-auto max-w-5xl">
 
+    {/* Heading (same pattern as other sections) */}
+    <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+      A Note from the <span className="text-primary">Founder</span>
+    </h2>
+
+    {/* Card (same style as skills/services cards) */}
+    <div className="bg-card p-8 rounded-lg shadow-xs card-hover max-w-3xl mx-auto text-center">
+
+      <p className="text-muted-foreground font-medium leading-relaxed italic mb-6">
+        "I started ModuSpace with a simple goal: to make premium interior design accessible and practical.
+        I oversee every project personally to ensure that what we promise is exactly what we deliver—a
+        beautiful, functional space you’ll love coming home to."
+      </p>
+
+      <div className="font-bold">
+        — Adil Hussain
+        <span className="block text-sm text-muted-foreground font-medium mt-1">
+          Founder, Moduspace
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
       </div>
     </section>
+    
   );
 };

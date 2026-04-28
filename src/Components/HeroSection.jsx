@@ -9,25 +9,33 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in">
+            {/* <span className="opacity-0 animate-fade-in">
               {" "}
               Hi, we are 
+            </span> */}
+            <span className="flex items-center justify-center gap-2">
+              <img
+                src="/projects/Moduspace_Logo.png"
+                alt="logo"
+                className="h-10 md:h-12 w-auto object-contain opacity-0 animate-fade-in"
+              />
+              <span className="text-primary opacity-0 animate-fade-in-delay-1">
+                Modu
+              </span>
+              <span className="text-gradient opacity-0 animate-fade-in-delay-2">
+                space
+              </span>
             </span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Modu
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              space
+            <span className="block text-sm md:text-base font-normal text-muted-foreground opacity-0 animate-fade-in-delay-3 leading-tight -ml-6">
+              Crafted For Your Comfort
             </span>
           </h1>
-
-          <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            We transform ideas into thoughtfully crafted spaces. With expertise
-            in civil engineering and modular kitchen design, we create smart,
-            elegant, and efficient environments that seamlessly blend
-            functionality with modern aesthetics.
-          </p>
+          <p className="text-lg md:text-xl font-semibold text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-up delay-300 leading-relaxed tracking-wide">
+  Crafting thoughtfully designed spaces through modular kitchens,
+  wardrobes, and fitted furniture, supported by expert design consultation.
+  Blending functionality with modern aesthetics to deliver smart, elegant,
+  and efficient environments for contemporary living.
+</p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">

@@ -395,7 +395,7 @@ const handleSubmit = (e) => {
                     href="mailto:adil@example.com"
                     className="text-muted-foreground hover:text-primary"
                   >
-                    adilhussain@gmail.com
+                    Moduspace786@gmail.com
                   </a>
                 </div>
               </div>
@@ -415,18 +415,31 @@ const handleSubmit = (e) => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">
-                    Kolkata, India
-                  </p>
-                </div>
-              </div>
+              <div className="space-y-4">
+  <div className="flex items-start space-x-4">
+    <div className="p-3 rounded-full bg-primary/10">
+      <MapPin className="h-6 w-6 text-primary" />
+    </div>
 
+    <div>
+      <h4 className="font-medium">Location</h4>
+      <p className="text-muted-foreground">
+       Tiretta Bazaar, Kolkata, India
+      </p>
+    </div>
+  </div>
+
+  {/* Google Map Embed */}
+  <div className="w-full h-64 rounded-lg overflow-hidden border">
+    <iframe
+      title="Tiretta Bazaar Location"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.9290!2d88.3563!3d22.5748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277a7b2b2b2b2%3A0x0!2sTiretta%20Bazaar%2C%20Kolkata%2C%20West%20Bengal%20700073!5e0!3m2!1sen!2sin!4v1710000000000"
+      className="w-full h-full"
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</div>
             </div>
           </div>
 
