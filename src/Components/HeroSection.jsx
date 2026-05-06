@@ -37,9 +37,12 @@ export const HeroSection = () => {
   and efficient environments for contemporary living.
 </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex justify-center gap-4">
             <a href="#projects" className="cosmic-button">
               View Our Work
+            </a>
+            <a href="#contact" className="cosmic-button">
+              Get Free Quote
             </a>
           </div>
         </div>
